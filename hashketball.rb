@@ -1,4 +1,5 @@
 def game_hash
+<<<<<<< HEAD
   hash = {
     :home => {
       :team_name => "Brooklyn Nets",
@@ -112,6 +113,23 @@ def game_hash
         }
         ]
       }
+=======
+  hash => {
+    :home {
+      :team_name => "Brooklyn Nets",
+      :colors => ["Black", "White"],
+      :players => [
+        :player_name =>{},
+        :number =>{},
+        :shoe =>{},
+        :points =>{},
+        :rebounds =>{},
+        :steals =>{},
+        :block =>{},
+        :slam_dunks =>{}
+        ]
+}
+>>>>>>> 8bf834fe0dc17969d9a9003d62780958e7c5960b
 }
 
 
